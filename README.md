@@ -22,23 +22,23 @@ Make a migration that creates the following database table:
 
 Seed your database with some data:
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 1                 |
-| dueDate    | "1997-02-01"      |
-| resolution | "Go skiing"       |
+| field      | value        |
+| ---------- | ------------ |
+| id         | 1            |
+| dueDate    | "1997-02-01" |
+| resolution | "Go skiing"  |
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 2                 |
-| dueDate    | "1997-05-01"      |
-| resolution | "Do stand-up"     |
+| field      | value         |
+| ---------- | ------------- |
+| id         | 2             |
+| dueDate    | "1997-05-01"  |
+| resolution | "Do stand-up" |
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 3                 |
-| dueDate    | "1997-09-01"      |
-| resolution | "Start knitting"  |
+| field      | value            |
+| ---------- | ---------------- |
+| id         | 3                |
+| dueDate    | "1997-09-01"     |
+| resolution | "Start knitting" |
 
 Make sure your next auto-incrementing integer starts with `4`!
 
@@ -64,4 +64,4 @@ Deploy this API. Note that you'll need to create a remote database, run your mig
 
 * You can test your API locally with `npm test`
 
-Add a link to your []() here. https://knex-drill-1.herokuapp.com/resolution
+Add a link to your []() here. https://memory-drill-1.herokuapp.com/resolutions
